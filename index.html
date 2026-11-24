@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/logo/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/gallery.css">
+<link rel="stylesheet" href="css/responsive.css">
+<title>My Art Gallery</title>
+<meta name="description" content="A personal art gallery of drawings and paintings.">
+</head>
+<body data-page="home">
+<header id="site-header"></header>
+
+<main>
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div>
+        <p class="eyebrow">Personal Art Collection</p>
+        <h1 id="hero-title">My Art Gallery</h1>
+        <p class="hero-sub" id="hero-subtitle"></p>
+        <p class="hero-text" id="intro-text"></p>
+        <a class="btn on-dark" href="gallery.html">Explore Gallery</a>
+      </div>
+      <a class="hero-frame" id="hero-art-link" href="gallery.html">
+        <img id="hero-art" alt="Featured artwork" decoding="async">
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="featured-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Selected Works</p>
+        <h2 id="featured-title">Featured Artworks</h2>
+        <div class="divider"></div>
+        <p id="featured-subtitle"></p>
+      </div>
+      <div class="masonry" id="featured-grid"></div>
+      <div class="center"><a class="btn" href="gallery.html">View Full Gallery</a></div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<script src="js/site-config.js"></script>
+<script src="js/artworks.js"></script>
+<script src="js/categories.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
